@@ -12,6 +12,9 @@ img {
   border-radius: 4px;
 }
 
+body > main {
+  margin: 0 0 1rem;
+}
 /*
 * --------------------------------------------------
 * components/Aside
@@ -136,6 +139,16 @@ aside li {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+
+.logo {
+    background-image: url("https://cdn.shopify.com/s/files/1/0781/7281/5691/files/logo300.png?v=1695978788");
+    width: 300px;
+    height: 50px;
+}
+
+.noshow {
+    display: none;
 }
 
 .header-menu-mobile-toggle {
